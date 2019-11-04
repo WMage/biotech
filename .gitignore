@@ -1,1 +1,3 @@
 .idea
+config/*
+!config/conf.default.php
