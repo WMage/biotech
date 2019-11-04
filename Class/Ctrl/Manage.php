@@ -88,6 +88,7 @@ class CtrlManage extends CtrlBase {
                 ),
                 TB_PRODUCT_TRANSLATE);
         }
+        return true;
     }
 
     public function updateProduct($data) {

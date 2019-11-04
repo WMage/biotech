@@ -16,7 +16,7 @@ if (is_numeric($_GET["prod"])) {//edit
 if(isset($_POST["action"]))
 {
     if($_POST["action"]=="create"){
-        $ctrl->newProduct($_POST);
+        if($ctrl->newProduct($_POST)) echo "létrehozva";
     }
     if($_POST["action"]=="create"){
         $ctrl->updateProduct($_POST);
